@@ -12,7 +12,9 @@ $(document).ready(function() {
       return "Your favorite stuff is " + item1 + ", " + item2 + ", " + item3 + ", " + item4 + ".";
     }
     var userOutput = favoriteThings (userInput1, userInput2, userInput3, userInput4);
+
     console.log(userOutput);
 
+    $("#favoriteThings").text(userOutput)
   });
 });
